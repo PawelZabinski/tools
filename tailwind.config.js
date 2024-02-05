@@ -4,9 +4,11 @@ export default {
   theme: {
     extend: {
       colors: {
-        "crayola": "#B2AC88",
-        "cambridge-blue": "#82AC9F",
-        "salmon": "#DB8A74"
+        "base-100": "#fbfaf9",
+        "base-200": "#ece3cb",
+        "base-300": "#e4d8b4",
+        "base-400": "#d0c093",
+        "pastel-orange": "#F7D9C4",
       },
     },
   },
