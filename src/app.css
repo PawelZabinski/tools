@@ -5,3 +5,7 @@
 :root {
     @apply bg-base-100;
 }
+
+.limit-screen-width {
+    width: min(100vw, 60rem);
+}
