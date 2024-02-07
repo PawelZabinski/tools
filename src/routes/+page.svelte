@@ -10,19 +10,19 @@
     }
 </script>
 
-<header class="bg-base-200 bg-opacity-80 backdrop-blur-md border-b border-base-300 fixed w-screen text-gray-800 h-16 flex justify-around items-center p-5 z-50">
+<header class="bg-base-200 bg-opacity-80 backdrop-blur-md border-b border-base-300 fixed w-screen text-gray-800 h-16 flex justify-between md:justify-around items-center p-5 z-50">
     <a href="/" class="font-bold text-xl">tools.zabinski.dev</a>
 
     <section class="md:flex hidden">
-        <a href="https://zabinski.dev" class="px-4 py-2">Portifolio</a>
-        <a href="mailto:developer@zabinski.dev" class="px-4 py-2 font-bold">Contact</a>
+        <a href="https://zabinski.dev" class="px-4 py-2 hover:bg-base-200 rounded-xl">Portifolio</a>
+        <a href="mailto:developer@zabinski.dev" class="px-4 py-2 font-bold hover:bg-base-200 rounded-xl">Contact</a>
     </section>
 
     <!-- DROPDOWN TOGGLE -->
     <button
         aria-label="Menu"
         on:click={toggleMenu}
-        class:text-amber-800={isShowingMenu}
+        class:text-base-800={isShowingMenu}
         class:text-gray-800={!isShowingMenu}
         class="md:hidden flex justify-center items-center transition-colors duration-200"
     >
@@ -67,9 +67,9 @@
 {/if}
 
 <main class="p-5 h-full">
-    <section class="text-center bg-base-200 bg-opacity-40 border border-base-300 rounded-2xl py-10">
-        <h1 class="text-5xl font-bold">All-in-One Tools</h1>
-        <p class="text-xl pt-5">Your productivity, simplified.</p>
+    <section class="text-center bg-base-200 bg-opacity-40 border border-base-300 rounded-2xl py-8">
+        <h1 class="text-3xl sm:text-5xl p-3 font-bold">All-in-One Tools</h1>
+        <p class="text-md sm:text-xl pt-2">Your productivity, simplified.</p>
     </section>
     
     <section class="w-full mx-auto grid gap-5 place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 py-5 h-full">

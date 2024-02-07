@@ -4,10 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        "base-100": "#fbfaf9",
-        "base-200": "#ece3cb",
-        "base-300": "#e4d8b4",
-        "base-400": "#d0c093",
+        "base-100": "#ffedd8",
+        "base-200": "#f3d5b5",
+        "base-300": "#e7bc91",
+        "base-400": "#d4a276",
+        "base-500": "#bc8a5f",
+        "base-600": "#a47148",
+        "base-700": "#8b5e34",
+        "base-800": "#6f4518",
+        "base-900": "#603808",
         "pastel-orange": "#F7D9C4",
       },
     },
