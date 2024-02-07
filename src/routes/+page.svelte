@@ -92,7 +92,7 @@
 
 <section class="w-screen flex flex-col items-center">
     <main class="p-5 h-full limit-screen-width">
-        <section class="text-center bg-base-200 bg-opacity-40 border border-base-300 rounded-2xl py-8">
+        <section class="text-center bg-base-200 border border-base-300 rounded-2xl py-8">
             <h1 class="text-3xl sm:text-5xl p-3 font-bold">All-in-One Tools</h1>
             <p class="text-md sm:text-xl pt-2">Your productivity, simplified.</p>
         </section>
