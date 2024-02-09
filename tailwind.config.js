@@ -13,7 +13,12 @@ export default {
         "base-700": "#8b5e34",
         "base-800": "#6f4518",
         "base-900": "#603808",
-        "pastel-orange": "#F7D9C4",
+
+        "dark-base-100": "#171717",
+        "dark-base-150": "#1e1e1e",
+        "dark-base-200": "#262626",
+        "dark-base-300": "#2f1f18",
+        "dark-base-400": "#bd5710"
       },
     },
   },

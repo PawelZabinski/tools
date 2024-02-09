@@ -3,9 +3,25 @@
 @tailwind utilities;
 
 :root {
-    @apply bg-base-100;
+    @apply bg-base-100 dark:bg-dark-base-100;
 }
 
 .limit-screen-width {
     width: min(100vw, 60rem);
 }
+
+/*
+- Animations
+*/
+@keyframes gradient-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.animated-gradient {
+    @apply bg-gradient-to-tr from-base-100 dark:from-dark-base-100 to-base-300 dark:to-dark-base-300;
+    background-size: 200% 200%; /* Make gradient larger than container */
+    animation: gradient-animation 10s ease infinite; /* Adjust animation details */
+  }
+  
