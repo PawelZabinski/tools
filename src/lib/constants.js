@@ -3,13 +3,13 @@ const tools = [
         "id": 1,
         "name": "Exam Question Timer",
         "path": "question-timer",
-        "description": "Optimise your exam preparation with our question-by-question timing tool, designed to enhance efficiency and motivate consistent practice."
+        "description": "Maximise exam prep with our timing tool, streamlining practice for better efficiency and motivation."
     },
     {
         "id": 2,
         "name": "Mental Math Gym",
         "path": "mental-math",
-        "description": "Practise your mental maths today!"
+        "description": "Elevate your number fluency with simple, focused mental maths practice sessions."
     },
     {
         "id": 3,
