@@ -17,6 +17,7 @@ export default {
         "dark-base-100": "#171717",
         "dark-base-150": "#1e1e1e",
         "dark-base-200": "#262626",
+        "dark-base-250": "#585858",
         "dark-base-300": "#2f1f18",
         "dark-base-400": "#bd5710"
       },
