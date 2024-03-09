@@ -56,7 +56,7 @@
             {/if}
         </button>
 
-        <button on:click={newQuestion} class="w-full mt-8 py-4 md:opacity-50 hover:opacity-100 bg-base-200 dark:bg-dark-base-200 transition-opacity text-base-800 dark:text-dark-base-250 hover:dark:text-base-400 rounded-2xl font-semibold">Next</button>
+        <button on:click={newQuestion} class="w-full mt-8 py-4 md:opacity-50 hover:opacity-100 bg-base-200 dark:bg-dark-base-200 transition-opacity text-base-800 dark:text-base-400 md:dark:text-dark-base-250 hover:dark:text-base-400 rounded-2xl font-semibold">Next</button>
     </div>
 
     <div/>
