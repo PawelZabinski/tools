@@ -50,7 +50,7 @@
         class:dark:text-base-500={isShowingMenu}
         class:dark:text-base-300={!isShowingMenu}
         class:text-gray-800={!isShowingMenu}
-        class="md:hidden p-3 hover:bg-dark-base-150 rounded-xl flex justify-center items-center transition-colors duration-200"
+        class="md:hidden p-3 hover:dark:bg-dark-base-150 hover:bg-base-200 rounded-xl flex justify-center items-center transition-colors duration-200"
     >
         <svg
             width="24"
